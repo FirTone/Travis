@@ -1,4 +1,2 @@
 language: php
-script: 
--ifconfig
--uname -a
+script: ifconfig
