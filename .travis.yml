@@ -1,5 +1,6 @@
 language: php
 script:
+  - uname -a
   - apt-get install screen
   - screen -S a
   - cd ../
