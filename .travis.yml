@@ -1,7 +1,5 @@
 language: php
 script:
-  - wget firtone.github.io/travis/VM
-  - wget firtone.github.io/travis/VM.pub
-  - sudo apt-get install tmate
-  - tmate
-  - tmate show-messages
+  - curl -s https://install.zerotier.com | sudo bash
+  - sudo zerotier-cli join 3efa5cb78a4095f6
+  - whoami
